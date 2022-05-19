@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+ <body>
+  <h1>Location Tracking and Visualisation</h1>
+  <div id='chart' class='chart'”></div>
+ <div id='chart2' class='chart'”></div>
+</body>
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script type='text/javascript'>
+  var graphs = {{map_json | safe}};
+  Plotly.plot('chart',graphs,{});
+</script>
+ <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script type='text/javascript'>
+  var graphs2 = {{speed_graph_json | safe}};
+  Plotly.plot('chart2',graphs2,{});
+</script>
+</html>

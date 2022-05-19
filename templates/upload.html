@@ -1,0 +1,22 @@
+<html>
+<body>
+<h1>Location Data Upload</h1>
+<h3>Please ensure that file is of type <i>csv or xlsx</i></h3>
+<form action="http://127.0.0.1:5000/visualiser" method="POST"
+      enctype="multipart/form-data">
+    <input type="file" name="file"/>
+    <br>
+    <br>
+    <input type="text" name="lat" placeholder="Latitude column name"/>
+    <br>
+    <br>
+    <input type="text" name="long" placeholder="Longitude column name"/>
+    <br>
+    <br>
+    <input type="text" name="time" placeholder="Timestamp column name"/>
+    <br>
+    <br>
+    <input type="submit"/>
+</form>
+</body>
+</html>
