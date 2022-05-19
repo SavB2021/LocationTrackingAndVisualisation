@@ -13,3 +13,8 @@ Python 3 installed
 * Run export FLASK_ENV=development
 * To initialise the app run flask run
 * Once the app has started up go to http://127.0.0.1:5000/upload and follow the prompts
+
+
+#### Note:
+* A test data file has been included with the repository (route_df.csv), it contains location data for a route on the west coast of the United States
+* Also included is a file called binarySearch.py which includes a short algorithm to return the next smallest number, given an array and an integer
